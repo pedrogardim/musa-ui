@@ -3,6 +3,7 @@
 Musa UI is a collection of reusable and flexible React music-related components. Currently:
 
 - Knob
+- Keyboard
 
 ### Roadmap
 
@@ -14,7 +15,6 @@ Musa UI is a collection of reusable and flexible React music-related components.
 
 #### Components
 
-- Keyboard
 - Sequencer
 - Piano roll
 - Waveform
