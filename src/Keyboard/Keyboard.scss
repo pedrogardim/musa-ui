@@ -1,0 +1,31 @@
+.keyboard {
+  flex: 1 1;
+  height: 56px;
+  display: flex;
+  position: relative;
+  user-select: none;
+}
+
+.keyboard-key {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  user-select: none;
+}
+
+.keyboard-key > *{
+  pointer-events: none;
+}
+
+.keyboard-black-key {
+  height: 60%;
+  position: absolute !important;
+  width: calc(100% / 78);
+  justify-content: center;
+}
+
+.keyboard-white-key {
+  width: calc(100% / 49);
+  justify-content: flex-end;
+}
