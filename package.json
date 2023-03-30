@@ -4,9 +4,11 @@
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "license": "MIT",
+  "homepage": "http://pedrogardim.github.io/musa-ui",
   "scripts": {
     "build": "rollup -c --bundleConfigAsCjs",
     "storybook": "start-storybook -p 6006",
+    "deploy-storybook": "gh-pages -d storybook-static",
     "build-storybook": "build-storybook",
     "test": "jest"
   },
@@ -34,6 +36,7 @@
     "@types/react": "^18.0.31",
     "babel-jest": "^29.5.0",
     "babel-loader": "^8.3.0",
+    "gh-pages": "^5.0.0",
     "jest": "^29.5.0",
     "jest-environment-jsdom": "^29.5.0",
     "react": "^18.2.0",
@@ -50,5 +53,7 @@
     "ts-node": "^10.9.1",
     "typescript": "^5.0.2"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "readme": "ERROR: No README data found!",
+  "_id": "musa-ui@1.0.0"
 }
