@@ -53,15 +53,15 @@ const Keyboard: FC<KeyboardProps> = ({
       ),
     ];
 
-    let activeKeys =
+    const activeKeys =
       activeNotes.length > 0
         ? [...new Set(activeNotes.map((n) => n - 24 - octave * 12))]
         : [];
 
-    let toPlay = [
+    const toPlay = [
       ...new Set(touchedKeys.filter((obj) => activeKeys.indexOf(obj) == -1)),
     ];
-    let toRelease = [
+    const toRelease = [
       ...new Set(activeKeys.filter((obj) => touchedKeys.indexOf(obj) == -1)),
     ];
 

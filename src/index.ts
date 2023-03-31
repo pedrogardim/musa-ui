@@ -1,3 +1,4 @@
-import Knob from './Knob/Knob';
+import Knob from './components/Knob/Knob';
+import Keyboard from './components/Keyboard/Keyboard';
 
-export { Knob };
+export { Knob, Keyboard };
